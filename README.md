@@ -1,6 +1,6 @@
 - 👋 Salve, eu me chamo Bruno Neves.
 - 👀 Curto programação em geral.
-- 🌱 Atualmente eu busco aprender e melhorar minha lógica e minha programação.
+- 🌱 Atualmente eu busco aprender e melhorar minha lógica e programação.
 - 💞️ Desenvolvendo projetos por ai.
 - 📫 bneves.dev@gmail.com
 
