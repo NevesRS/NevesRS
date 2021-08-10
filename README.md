@@ -1,8 +1,8 @@
-- 👋 Salve, eu me chamo Bruno Neves.
-- 👀 Curto programação em geral.
-- 🌱 Atualmente busco aprender e melhorar minha lógica e programação.
-- 💞️ Desenvolvendo projetos por ai.
-- 📫 bneves.dev@gmail.com
+-  Salve, eu me chamo Bruno Neves.
+-  Curto programação em geral.
+-  Atualmente busco aprender e melhorar sempre.
+-  Desenvolvendo projetos por ai.
+-  bneves.dev@gmail.com
 
 <!---
 NevesRS/NevesRS is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
