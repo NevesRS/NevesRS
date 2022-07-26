@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Exercício 04</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Fatura de Serviços de Telecomunicações</h1>
+		<hr>
+		<form action="/imprimir" method="post">
+			<fieldset>
+				<legend>Dados do Cliente</legend>
+				
+				<label for="cpf">CPF:</label><br>
+				<input type="text" name="cpf" id="cpf" size="15"><br><br>
+		
+				<label for="nome">Nome:</label><br>
+				<input type="text" name="nome" id="nome" size="30"><br><br>
+				
+				<label for="telefone">Telefone:</label><br>
+				<input type="text" name="telefone" id="telefone" size="20"><br><br>
+				
+				<label for="endereco">Endereço:</label><br>
+				<textarea name="endereco" id="endereco" cols="100" rows="3"></textarea>
+			</fieldset><br>
+			
+			<fieldset>
+				<legend>Dados do Serviço</legend>
+				
+				<label for="descricao_servico">Descrição:</label><br>
+				<textarea name="descricao_servico" id="descricao_servico" cols="100" rows="3"></textarea><br><br>
+				
+				<label for="data_realizacao">Data de Realização:</label><br>
+				<input type="date" name="data_realizacao" id="data_realizacao" size="20"><br><br>
+				
+				<label for="tipo">Tipo:</label><br>
+				<select name="tipo" id="tipo" required>
+					<option value="" disabled>Selecione um Serviço</option>
+					<option value="1">Instalação de Telefone/Internet</option>
+					<option value="2">Manutenção de Linha Telefônica/Internet</option>
+					<option value="3">Troca de Equipamentos (modem)</option>
+					<option value="4">Suporte Técnico</option>
+				</select><br><br>
+				
+				<label for="tempo">Tempo para Realização (em horas):</label><br>
+				<input type="number" name="tempo" id="tempo" size="10"><br><br>
+
+				<label for="valor_unitario">Valor Unitário:</label><br>
+				<input type="text" name="valor_unitario" id="valor_unitario" size="15">
+			</fieldset><br>
+			
+			<fieldset>
+				<legend>Dados da Fatura:</legend>
+				
+				<label for="data_emissao">Data de Emissão:</label><br>
+				<input type="date" name="data_emissao" id="data_emissao" size="20"><br><br>
+				
+				<label for="data_vencimento">Data de Vencimento:</label><br>
+				<input type="date" name="data_vencimento" id="data_vencimento" size="20">
+			</fieldset><br>
+			
+			<input type="submit" name="imprimir" value="Imprimir Fatura">
+			<input type="reset" name="limpar" value="Limpar">
+		</form>
+	</body>
+</html>

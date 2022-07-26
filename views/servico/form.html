@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Organizações Tabajara</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Cadastro de Cliente</h1>
+		<hr>
+		<form action="/salvarCliente" method="post">
+				
+			<label for="Descricao">Descrição:</label><br>
+			<input type="text" name="desc" id="desc" size="15"><br><br>
+	
+			<label for="TipoServico">Tipo Serviço:</label><br>
+			<input type="text" name="serv" id="serv" size="30"><br><br>
+			
+			<label for="TempoRealizacao">Tempo de realização:</label><br>
+			<input type="text" name="tempoRealizacao" id="tempoRealizacao" size="20"><br><br>
+			
+			<label for="DataRealizacao">Data de realização:</label><br>
+			<textarea name="dataRealizacao" id="dataRealizacao" cols="100" rows="3"></textarea><br><br>
+
+			<label for="ValorHora">Valor hora:</label><br>
+			<textarea name="valorHora" id="valorHora" cols="100" rows="3"></textarea><br><br>
+
+			<input type="submit" name="salvar" value="Salvar">
+			<input type="reset" name="limpar" value="Limpar">
+		</form>
+	</body>
+</html>

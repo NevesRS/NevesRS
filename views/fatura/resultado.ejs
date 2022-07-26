@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Exercício 04</title>
+    <meta charset="UTF-8">
+	<link href="estilos.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+	<div id="quadro">
+		<div id="cabecalho">
+			<img src="tabajara.jpg" align="left" width="150" style="padding-top: 10px; padding-left: 10px;">
+			<h1 align="center">Fatura Online</h1>
+		</div>
+		<div id="corpo">
+			<p style="color: #000000; font-weight: bold;">Dados do Cliente</p>
+			<ul>
+				<li>CPF: <%= param.getCli().getCpf() %></li>
+				<li>Nome: <%= param.getCli().getNome() %></li>
+				<li>Telefone: <%= param.getCli().getTelefone() %></li>
+				<li>Endereço: <%= param.getCli().getEndereco() %></li>
+			</ul>
+			
+			<table border="1" cellpadding="5" cellspacing="0" style="border-color: #000000">
+				<caption style="color: #000000; font-weight: bold;">Dados do Serviço</caption>
+				<tr align="center">
+					<th>Descrição</th>
+					<th>Data de Realização</th>
+					<th>Tipo de Serviço</th>
+					<th>Tempo</th>
+					<th>Valor Unitário</th>
+				</tr>
+				<tr>
+					<td><%= param.getServ().getDescricao() %></td>
+					<td><%= param.getServ().getDataRealizacao() %></td>
+					<td><%= param.getServ().getTipoServico() %></td>
+					<td><%= param.getServ().getTempoRealizacao() %></td>
+					<td>R$ <%= param.getServ().getValorHora() %></td>
+				</tr>
+			</table>
+		</div>
+		<div id="rodape">
+			<ul class="totais">
+				<li>Vencimento: <%= param.getDataVencimento() %></li>
+				<li>Total: R$ <%= param.getValorTotal() %></li>
+				<li>ICMS: <%= param.getPercentualIcms() %>%</li>
+				<li>Valor do ICMS: R$ <%= param.getValorIcms() %></li>
+			</ul>
+		</div>
+	</div>
+  </body>
+</html>
