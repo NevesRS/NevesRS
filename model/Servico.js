@@ -1,7 +1,7 @@
 module.exports = class Servico { 
   constructor() {
 	this.descricao = "";
-    this.tipoServico = 0;
+  this.tipoServico = 0;
 	this.tempoRealizacao = 0;
 	this.dataRealizacao = "";
 	this.valorHora = 0.0;
@@ -60,7 +60,7 @@ module.exports = class Servico {
   }
 
   inserir(connection) {
-    var sql = "INSERT INTO clientes (descricao,tipoServico,tempoRealizacao,dataRealizacao,valorHora) VALUES(?, ?, ?, ?)";
+    var sql = "INSERT INTO servicos (descricao,tipo_servico,tempo_realizacao,data_realizacao,valor_hora) VALUES(?, ?, ?, ?, ?)";
 
     connection.query(sql, [this.descricao, this.tipoServico, this.tempoRealizacao, this.dataRealizacao, this.valorHora], function (err, result) {
       if (err) throw err;

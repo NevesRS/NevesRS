@@ -8,20 +8,21 @@
 	<div id="quadro">
 		<div id="cabecalho">
 			<img src="tabajara.jpg" align="left" width="150" style="padding-top: 10px; padding-left: 10px;">
-			<h1 align="center">Cadastro de Cliente</h1>
+			<h1 align="center">Cadastro de Serviços</h1>
 		</div>
 		<div id="corpo">
-			<p style="color: #000000; font-weight: bold;">Dados do Cliente</p>
+			<p style="color: #000000; font-weight: bold;">Dados do Serviço</p>
 			<ul>
-				<li>CPF: <%= param.getCpf()%></li>
-				<li>Nome: <%= param.getNome()%></li>
-				<li>Telefone: <%= param.getTelefone()%></li>
-				<li>Endereço: <%= param.getEndereco()%></li>
+				<li>Descrição do serviço: <%= param.getDescricao()%></li>
+				<li>Tipo de serviço realizado: <%= param.getTipoServico()%></li>
+				<li>Tempo empregado no serviço: <%= param.getTempoRealizacao()%></li>
+				<li>Data da realização do serviço: <%= param.getDataRealizacao()%></li>
+				<li>Valor da hora trabalhada: <%= param.getValorHora()%></li>
 			</ul>
 		</div>
 		<div id="rodape">
 			<p class="totais">
-				Cliente registrado com sucesso!!!!
+				Serviço registrado com sucesso!!!!
 			</p>
 			
 			<a href="/">Voltar ao Menu Principal</a>

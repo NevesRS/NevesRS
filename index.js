@@ -16,7 +16,7 @@ const Servico = require('./model/Servico');
 
 var mysql = require('mysql');
 var con = mysql.createConnection({
-  host: "200.17.84.52",
+  host: "localhost",
   user: "gleison",
   password: "12345678",
   database: "tabajara"
@@ -62,7 +62,7 @@ app.post('/salvarServico', function(req,res){
 	s.setDataRealizacao(req.body.dataRealizacao);
 	s.setValorHora(req.body.valorHora);
 
-	var retorno = c.inserir(con);
+	var retorno = s.inserir(con);
 
 	res.render('servico/resultado.ejs', {param: s});
 })
