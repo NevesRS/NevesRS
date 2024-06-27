@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">- 📝📚 I’m currently an undergraduate in Computer Science at PUCRS.<br>- 🔨👨‍💻 I’m currently a backend trainee at Creatus<br>- ✨📈 I’m currently improving in the TypeScript ecosystem.</p>
+<p align="left">- 📝📚 Undergraduate in Computer Science at PUCRS.<br>- 🔨👨‍💻 Backend trainee at Creatus<br>- ✨📈 Improving in the TypeScript ecosystem.</p>
 
 ###
 
