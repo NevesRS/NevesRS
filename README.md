@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">- 👨‍💻 Intern at ADP Brazil Labs <br>- 📝📚 Undergraduate in Computer Science at PUCRS.<br>- 🔨👨‍💻 Backend developer <br>- ✨📈 Improving in the TypeScript ecosystem.</p>
+<p align="left">- 👨‍💻✨ Intern at ADP Brazil Labs <br>- 📝📚 Undergraduate in Computer Science at PUCRS.<br>- 🔨👨‍💻 Backend developer <br>- ✨📈 Improving in the TypeScript ecosystem.</p>
 
 ###
 
